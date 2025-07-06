@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SoundCloud Music Player</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="player-container"> 
+    <h2 id="song-title">Loading...</h2>
+    <div id="soundcloud-player-container">
+      <!-- Iframe player will be inserted here -->
+    </div>
+
+    <div class="controls">
+      <button onclick="prevSong()">⏮️</button>
+      <button onclick="nextSong()">⏭️</button>
+    </div>
+
+    <ul id="playlist"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
